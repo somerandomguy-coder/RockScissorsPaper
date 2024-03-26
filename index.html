@@ -2,9 +2,32 @@
 <html>
     <head>
         <title>Rock Scissor Paper</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p>happy happy</p>
+        <div class="inner_page">
+            <header>Rock Scissor Paper</header>
+            <p><span>How to play:</span> you (player) put one of the three option
+            (rock, scissor or paper) into the text box. The bot will also 
+            give a choice. If your choice stronger than bot's choice, you score a win.
+            Otherwise, you lose. If you have the same choice as the bot, you will tie the game.
+            The score will be record, who ever score 3 first will win. And after 5 game, if your
+            win games less than bot's win games, you lose.
+            </p>
+            <div class="container" id="box_container">
+                <p class="box"></p>
+                <p class="box"></p>
+                <p class="box"></p>
+                <p class="box"></p>
+                <p class="box"></p>
+            </div>
+            <div class="container">
+                <input type="text">
+                <button>Submit</button>
+             </div>   
+             <h2 class="status">Enter a choice to play</h2>
+             <button class="newGame">New game</button>
+        </div>
         <script src="jsFile/logic.js"></script>
     </body>
 </html>
