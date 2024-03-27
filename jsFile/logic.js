@@ -117,6 +117,7 @@ btn.addEventListener("click", ()=>{
     console.log(lst);
     initialize();
     input.value = "";
+    input.focus();
 });
 
 //rematch (new game)
